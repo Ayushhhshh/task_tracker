@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(vertical: 8, horizontal: 8),
               child: CircleAvatar(
-                backgroundImage: AssetImage("assets/images/user_avatar.jpg"),
+                backgroundImage: AssetImage("assets/user_avatar.jpg"),
                 maxRadius: 20,
                 backgroundColor: Colors.black),
             ),
