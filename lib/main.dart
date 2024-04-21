@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_tracker/home.dart';
+import 'package:task_tracker/screens/home.dart';
 
 void main() {
   runApp(const MyApp());
