@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
               style: GoogleFonts.notoSans(
                 textStyle: const TextStyle(
                   fontSize: 30,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w400,
                   fontStyle: FontStyle.normal,
                 ),
               ),
