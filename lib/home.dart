@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_tracker/appbar.dart';
+import 'package:task_tracker/widgets/appbar.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -8,10 +9,26 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: appBar(),
-      body: const Text("To Do List", style: TextStyle(fontSize: 25,),),
+      body: ListView(
+        children:  [Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Padding(
+            padding: const EdgeInsets.all(5.0),
+            child: Text('All To Do\'s',
+              style: GoogleFonts.notoSans(
+                textStyle: const TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                  fontStyle: FontStyle.normal,
+                ),
+              ),
+            ),
+          ),
+        )],
+      ),
+      
     );
   }
-
   
   
 }
